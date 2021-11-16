@@ -176,16 +176,22 @@ hr{
     text-align: justify;
 }
 /*  form */
-.form{
+.show{
+    display: inline;
     width: 100%;
-    height: 600px;
-    margin-bottom: 20px;
-    display: flex;
+    height: 650px;
     flex-direction: column;
     text-align: center;
-    align-items: center; 
+    align-items: center;
     justify-content: flex-end;
-    overflow: hidden;
+}
+.show-form{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.show-video{
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 /* Social medias*/
